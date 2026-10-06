@@ -1,0 +1,56 @@
+/* Student Travel Planner Custom CSS */
+.main-header {
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #3182CE 0%, #805AD5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.2rem;
+}
+
+.sub-header {
+    font-size: 1.1rem;
+    color: #4A5568;
+    margin-bottom: 1.5rem;
+}
+
+.agent-card {
+    background: #F7FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.agent-card-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #2B6CB0;
+    margin-bottom: 8px;
+}
+
+.metric-box {
+    background-color: #EBF8FF;
+    border-left: 5px solid #3182CE;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.stButton>button {
+    background: linear-gradient(90deg, #3182CE 0%, #63B3ED 100%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    box-shadow: 0 4px 6px rgba(49, 130, 206, 0.25);
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(90deg, #2B6CB0 0%, #4299E1 100%);
+    box-shadow: 0 6px 12px rgba(49, 130, 206, 0.35);
+    transform: translateY(-1px);
+}
